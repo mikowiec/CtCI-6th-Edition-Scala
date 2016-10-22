@@ -13,8 +13,8 @@ object Chapter1q3 {
 
 
   def main(args: Array[String]) {
-    var res: String = urlEncode("aab cds ta")
     println( urlEncode("aab cds ta") == "aab%20cds%20ta")
+    println( ("aab cds ta").replace(" ", "%20") == "aab%20cds%20ta")    
   }
 
 }
