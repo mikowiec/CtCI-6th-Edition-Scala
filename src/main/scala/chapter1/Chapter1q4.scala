@@ -17,7 +17,7 @@ object Chapter1q4 {
   def main(args: Array[String]) {
     println(palindromePermutation("Ratzs live on no evil starz") == true)
     println(palindromePermutation("Zeus was deified, saw Suez") == true)
-    println(palindromePermutation("Zeuz was deified, saw Suez") == true)
+    println(palindromePermutation("Zeuz was deified, saw Suez") == false)
 
   }
 
